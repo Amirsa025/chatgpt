@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/image/favicon.png" />
       </Head>
-      <div className=" md:pt-[68px] text-white md:px-[9.25rem] hidden md:block ">
+      <div className=" md:pt-[68px] text-white  md:pr-[9.25rem] lg:pl-[9.25rem]  hidden md:block ">
          <Navbar/>
           <div className="grid grid-cols-2 ">
             <div>
@@ -77,7 +77,7 @@ export default function Home() {
             <div className={"md:flex  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
 
-                <img src="/image/Group.png" alt=""  className={"max-w-screen-sm"}/>
+                <img src="/image/Group.png" alt=""  className={"md:max-w-lg max-w-screen-sm md:max-w-lg max-w-screen-0"}/>
               </div>
             </div>
           </div>
