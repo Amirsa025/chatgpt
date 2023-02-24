@@ -18,13 +18,13 @@ const Contact = () => {
                 {/*Desktop and tablet*/}
                 <div className=" text-white -z-[10000]  hidden md:block">
                     <div className="grid grid-cols-2 ">
-                        <div className={"md:pt-[68px] text-white md:px-[9.25rem] hidden md:block"}>
+                        <div className={"md:pt-[68px] text-white lg:px-[9.25rem] hidden md:block"}>
                             <div className="">
                                 <Navbar/>
                             </div>
                             <div>
                                 <div className={"text-white "}>
-                                    <section className={"pt-[5rem]"}>
+                                    <section className={"pt-[5rem] md:px-[9.25rem]"}>
                                         <div>
                                             <Image
                                                 src="/image/Mia.png"
@@ -33,7 +33,7 @@ const Contact = () => {
                                                 alt="Picture of the author"
                                             />
                                         </div>
-                                        <div className="w-[332px] py-[30px]">
+                                        <div className="w-[332px] py-[30px] ">
                                             <p className={"text-[40px] font-bold leading-[99.02%]"}>
                                                 Is there somethings to explore in AI WORLD?<br/>
                                                 Get Started
