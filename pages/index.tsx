@@ -97,7 +97,7 @@ export default function Home() {
           </section>
           <section className="py-[1.8rem] flex items-center space-x-4 ">
             <div>
-              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                 <Image
                     src="/image/google.png"
                     width={200}
@@ -108,7 +108,7 @@ export default function Home() {
 
             </div>
             <div>
-              <a target="_blank" href="https://apps.apple.com/us/app/id1668359797">
+              <a target="_blank" href="https://apps.apple.com/us/app/id1668359797" rel="noreferrer">
                 <Image
                     src="/image/appStore.png"
                     width={200}
@@ -147,7 +147,7 @@ export default function Home() {
                   alt="Picture of the author"
               />
             </div>
-            <h3 className="text-[10px] text-[#787878]">All right resaved for Mia-GPT 4 Community. Copyright 2023</h3>
+            <h3 className="text-[10px] text-[#787878]">All right resaved for Mia Application. Copyright 2023</h3>
           </section>
         </div>
       </div>
