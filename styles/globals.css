@@ -67,6 +67,7 @@
 }
 body {
   background: #101010!important;
+  font-family: 'Inter', serif;
 }
 .rotate_me{
   transform: rotate(26.42deg);
