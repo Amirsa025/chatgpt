@@ -45,7 +45,7 @@ const Contact = () => {
                                     </section>
                                     <section className="pt-[1.188rem] flex items-center space-x-8 ">
                                         <div>
-                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                            <a  href="https://play.google.com/store/apps/details?id=com.mia.app">
                                                 <Image
                                                     priority
                                                     src="/image/google.png"
@@ -57,7 +57,7 @@ const Contact = () => {
 
                                         </div>
                                         <div>
-                                            <a target="_blank" href="https://apps.apple.com/us/app/id1668359797">
+                                            <a  href="https://apps.apple.com/us/app/id1668359797">
                                                 <Image
                                                     priority
                                                     src="/image/appStore.png"
@@ -180,7 +180,7 @@ const Contact = () => {
                         </section>
                         <section className="py-[1.8rem] flex items-center space-x-4 ">
                             <div>
-                                <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
+                                <a   href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                                     <Image
                                         src="/image/google.png"
                                         width={200}
@@ -191,7 +191,7 @@ const Contact = () => {
 
                             </div>
                             <div>
-                                <a target="_blank" href="https://apps.apple.com/us/app/id1668359797" rel="noreferrer">
+                                <a href="https://apps.apple.com/us/app/id1668359797" >
                                     <Image
                                         src="/image/appStore.png"
                                         width={200}

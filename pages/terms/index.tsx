@@ -125,7 +125,7 @@ const privacy = () => {
                         </section>
                         <section className="py-[4.8rem] flex items-center space-x-4 ">
                             <div>
-                                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
+                                <a  href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                                     <Image
                                         src="/image/google.png"
                                         width={200}
@@ -136,7 +136,7 @@ const privacy = () => {
 
                             </div>
                             <div>
-                                <a target="_blank" href="https://apps.apple.com/us/app/id1668359797">
+                                <a  href="https://apps.apple.com/us/app/id1668359797">
                                     <Image
                                         src="/image/appStore.png"
                                         width={200}

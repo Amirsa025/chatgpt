@@ -70,6 +70,7 @@ export default function Home() {
             </div>
             <div className={"md:flex md:items-center  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/image/Group.png" alt=""  className={"md:max-w-lg lg:max-w-xl  xl:max-w-2xl  max-w-screen-0"}/>
               </div>
             </div>
@@ -97,7 +98,7 @@ export default function Home() {
           </section>
           <section className="py-[1.8rem] flex items-center space-x-4 ">
             <div>
-              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
+              <a  href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                 <Image
                     src="/image/google.png"
                     width={200}
@@ -108,7 +109,7 @@ export default function Home() {
 
             </div>
             <div>
-              <a target="_blank" href="https://apps.apple.com/us/app/id1668359797" rel="noreferrer">
+              <a  href="https://apps.apple.com/us/app/id1668359797"  rel="noopener">
                 <Image
                     src="/image/appStore.png"
                     width={200}
