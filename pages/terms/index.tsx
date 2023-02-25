@@ -1,15 +1,15 @@
 import React from 'react';
+import Head from 'next/head'
 import Navbar from "@/app/component/Navbar";
 import Image from "next/image";
 import TextPrivacy from "@/app/privacyPolicyText";
-import Head from "next/head";
 
 const privacy = () => {
     return (
         <>
             <div className={"text-white "}>
                 <Head>
-                    <title>Mia | Privacy & Policy</title>
+                    <title>Mia | Terms of Use</title>
                 </Head>
                 <div className=" text-white  hidden md:block">
                     <div className="grid grid-cols-2 relative">
@@ -95,7 +95,7 @@ const privacy = () => {
                                         className="text-[#858585] text-[12px] font-normal ">Last Update : Feb 23, 2023</span>
 
                                 </div>
-                                      <TextPrivacy/>
+                                <TextPrivacy/>
                             </div>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ const privacy = () => {
                             </div>
                         </section>
                         <section className="relative ">
-                          <TextPrivacy/>
+                            <TextPrivacy/>
                         </section>
                         <section className="py-[4.8rem] flex items-center space-x-4 ">
                             <div>

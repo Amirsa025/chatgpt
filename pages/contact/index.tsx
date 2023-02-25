@@ -1,10 +1,13 @@
 import React from 'react';
 import Navbar from "@/app/component/Navbar";
 import Image from "next/image";
-
+import Head from 'next/head'
 const Contact = () => {
     return (
         <div>
+            <Head>
+                <title>Mia | Contact us</title>
+            </Head>
             <div className={"text-white relative"}>
                 <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
                     <Image
@@ -34,16 +37,17 @@ const Contact = () => {
                                             />
                                         </div>
                                         <div className="w-[332px] py-[30px] ">
-                                            <p className={"text-[40px] font-bold leading-[99.02%]"}>
+                                            <p className={"text-[40px] font-custom leading-[99.02%]"}>
                                                 Is there somethings to explore in AI WORLD?<br/>
                                                 Get Started
                                             </p>
                                         </div>
                                     </section>
-                                    <section className="pt-[3.188rem] flex items-center space-x-8 ">
+                                    <section className="pt-[1.188rem] flex items-center space-x-8 ">
                                         <div>
-                                            <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app">
                                                 <Image
+                                                    priority
                                                     src="/image/google.png"
                                                     width={189.53}
                                                     height={56.29}
@@ -53,8 +57,9 @@ const Contact = () => {
 
                                         </div>
                                         <div>
-                                            <a href="https://apps.apple.com/us/app/id1668359797">
+                                            <a target="_blank" href="https://apps.apple.com/us/app/id1668359797">
                                                 <Image
+                                                    priority
                                                     src="/image/appStore.png"
                                                     width={189.53}
                                                     height={56.29}
@@ -175,7 +180,7 @@ const Contact = () => {
                         </section>
                         <section className="py-[1.8rem] flex items-center space-x-4 ">
                             <div>
-                                <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                <a  target="_blank" href="https://play.google.com/store/apps/details?id=com.mia.app" rel="noreferrer">
                                     <Image
                                         src="/image/google.png"
                                         width={200}
@@ -186,7 +191,7 @@ const Contact = () => {
 
                             </div>
                             <div>
-                                <a href="https://apps.apple.com/us/app/id1668359797">
+                                <a target="_blank" href="https://apps.apple.com/us/app/id1668359797" rel="noreferrer">
                                     <Image
                                         src="/image/appStore.png"
                                         width={200}
