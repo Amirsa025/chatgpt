@@ -33,7 +33,7 @@ export default function Home() {
                     </p>
                   </div>
                 </section>
-                <section className="pt-[3.188rem] flex items-center space-x-8 ">
+                <section className="pt-[1.188rem] flex items-center space-x-8 ">
                   <div>
                     <a href="https://play.google.com/store/apps/details?id=com.mia.app">
                       <Image
@@ -71,10 +71,9 @@ export default function Home() {
                 </section>
               </div>
             </div>
-            <div className={"md:flex  md:justify-center md:ml-12 lg:ml-0"}>
+            <div className={"md:flex md:items-center  md:justify-center md:ml-12 lg:ml-0"}>
               <div >
-
-                <img src="/image/Group.png" alt=""  className={"md:max-w-lg max-w-screen-sm md:max-w-lg max-w-screen-0"}/>
+                <img src="/image/Group.png" alt=""  className={"md:max-w-lg lg:max-w-xl   max-w-screen-0"}/>
               </div>
             </div>
           </div>

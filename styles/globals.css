@@ -50,38 +50,6 @@ body {
   background: #101010!important;
   font-family: 'Nunito Sans', sans-serif;
 }
-.rotate_me{
-  animation: myAnim 5s  0s 1 normal forwards;
-}
 
-@keyframes myAnim {
-  0%,
-  100% {
-    transform: rotate(26.42deg);
-    transform-origin: 0 50%;
-  }
 
-  10% {
-    transform: rotate(2deg);
-  }
 
-  20%,
-  40%,
-  60% {
-    transform: rotate(-4deg);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: rotate(4deg);
-  }
-
-  80% {
-    transform: rotate(-2deg);
-  }
-
-  90% {
-    transform: rotate(2deg);
-  }
-}
