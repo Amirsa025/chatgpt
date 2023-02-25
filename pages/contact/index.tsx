@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
             <div className={"text-white relative"}>
-                <div className={"absolute top-44 z-40 -left-[10rem] animate-pulse hidden md:flex"}>
+                <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
                     <Image
                         className="rotate_me"
                         src="/image/Group39.png"
@@ -24,7 +24,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <div className={"text-white "}>
-                                    <section className={"pt-[5rem] md:px-[9.25rem]"}>
+                                    <section className={"pt-[5rem]"}>
                                         <div>
                                             <Image
                                                 src="/image/Mia.png"
@@ -40,7 +40,7 @@ const Contact = () => {
                                             </p>
                                         </div>
                                     </section>
-                                    <section className="pt-[3.1rem] flex items-center space-x-8 ">
+                                    <section className="pt-[3.188rem] flex items-center space-x-8 ">
                                         <div>
                                             <a href="https://play.google.com/store/apps/details?id=com.mia.app">
                                                 <Image

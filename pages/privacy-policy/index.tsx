@@ -9,9 +9,10 @@ const privacy = () => {
 
                 <div className=" text-white  hidden md:block">
                     <div className="grid grid-cols-2 relative">
-                        <div className={"h-screen sticky top-0 text-white md:pl-[3r] lg:pl-0 lg:px-[9.25rem] hidden md:block"}>
+                        <div className={"h-screen sticky top-0 text-white  lg:pl-[9.25rem]   hidden md:block"}>
                             <div className={"absolute top-44 z-40 -left-[10rem]  hidden md:flex"}>
                                 <Image
+                                    priority
                                     className="rotate_me"
                                     src="/image/Group39.png"
                                     width={254}
@@ -39,10 +40,11 @@ const privacy = () => {
                                         </p>
                                     </div>
                                 </section>
-                                <section className="pt-[3.1rem] flex items-center space-x-8 ">
+                                <section className="pt-[3.188rem] flex items-center space-x-8 ">
                                     <div>
                                         <a href="https://play.google.com/store/apps/details?id=com.mia.app">
                                             <Image
+                                                priority
                                                 src="/image/google.png"
                                                 width={189.53}
                                                 height={56.29}
@@ -54,6 +56,7 @@ const privacy = () => {
                                     <div>
                                         <a href="https://apps.apple.com/us/app/id1668359797">
                                             <Image
+                                                priority
                                                 src="/image/appStore.png"
                                                 width={189.53}
                                                 height={56.29}
@@ -67,6 +70,7 @@ const privacy = () => {
                                     <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
                                         <div className={"sr-only"}>copyright</div>
                                         <Image
+                                            priority
                                             src="/image/copyRight.png"
                                             width={20}
                                             height={20}
@@ -79,7 +83,7 @@ const privacy = () => {
                             </div>
                         </div>
 
-                        <div className={"pt-[68px]"}>
+                        <div className={"py-[40px] "}>
                             <div className="">
                                 <div>
                                     <h1 className=" text-[36px] font-extrabold">Privacy Policy</h1>
@@ -131,7 +135,7 @@ const privacy = () => {
                                             </li>
                                         </ul>
                                         <span className="py-2">Link to the privacy policy of third-party service providers used by the app:</span>
-                                        <ul className="pl-8  pb-2" >
+                                        <ul className="pl-8  pb-2">
                                             <li className="list-disc">Google Play Services</li>
                                             <li className="list-disc"> Google AdMob</li>
                                             <li className="list-disc"> Google Analytics for Firebase</li>
@@ -162,9 +166,11 @@ const privacy = () => {
                                         </p>
                                         <div className={"pt-4"}>
                                             <span>Links to Other Sites</span>
-                                            <p >
-                                                This service may contain links to other sites. If you click on a third-party
-                                                link, you will be directed to that site. Note that these external sites are
+                                            <p>
+                                                This service may contain links to other sites. If you click on a
+                                                third-party
+                                                link, you will be directed to that site. Note that these external sites
+                                                are
                                                 not operated by us. Therefore, we strongly advise you to review the
                                                 Privacy-Policy of these websites. We have no control over and assume no
                                                 responsibility for the content, privacy policies, or practices of any
@@ -174,9 +180,44 @@ const privacy = () => {
                                         <div className={"pt-4"}>
                                             <span>Ads</span>
                                             <p>
-                                                We may display ads supplied by a third-party ad provider, such as Google AdMob, AdSense, Facebook Ads, etc. These providers may be using cookies, or other technologies to collect information as a result of ad serving.
+                                                We may display ads supplied by a third-party ad provider, such as Google
+                                                AdMob, AdSense, Facebook Ads, etc. These providers may be using cookies,
+                                                or other technologies to collect information as a result of ad serving.
                                                 Important notes:
                                                 This application is NOT affiliated with or endorsed by OpenAI.
+                                            </p>
+                                        </div>
+                                        <div className={"pt-4"}>
+                                            <span> Children’s Privacy</span>
+                                            <p>
+
+                                                These services do not address anyone under the age of 13. We do not
+                                                knowingly collect personally identifiable information from children
+                                                under 13. In the case we discover that a child under 13 has provided us
+                                                with personal information, we immediately delete this from our servers.
+                                            </p>
+                                        </div>
+                                        <div className={"pt-2"}>
+                                            <p>
+                                                If you are a parent or guardian and you are aware that your child has
+                                                provided us with personal information, please contact us so that we will
+                                                be able to do the necessary actions.
+                                            </p>
+                                        </div>
+                                        <div className={"pt-4"}>
+                                            <span> Changes to This Privacy Policy</span>
+                                            <p>
+                                                We may update our privacy-policy from time to time. Thus, you are
+                                                advised to review this page periodically for any changes. We will notify
+                                                you of any changes by posting the new Privacy Policy on this page. These
+                                                changes are effective immediately after they are posted on this page.
+                                            </p>
+                                        </div>
+                                        <div className={"pt-4"}>
+                                            <span> Contact Us</span>
+                                            <p>
+                                                If you have any questions or suggestions about our Privacy Policy, do
+                                                not hesitate to contact us at himia@dopin.io
                                             </p>
                                         </div>
                                     </div>
@@ -204,30 +245,6 @@ const privacy = () => {
                                     Is there somethings to explore in AI WORLD?<br/>
                                     Get Started
                                 </p>
-                            </div>
-                        </section>
-                        <section className="py-[1.8rem] flex items-center space-x-4 ">
-                            <div>
-                                <a href="https://play.google.com/store/apps/details?id=com.mia.app">
-                                    <Image
-                                        src="/image/google.png"
-                                        width={200}
-                                        height={47}
-                                        alt="Picture of the author"
-                                    />
-                                </a>
-
-                            </div>
-                            <div>
-                                <a href="https://apps.apple.com/us/app/id1668359797">
-                                    <Image
-                                        src="/image/appStore.png"
-                                        width={200}
-                                        height={47}
-                                        alt="Picture of the author"
-                                    />
-                                </a>
-
                             </div>
                         </section>
                         <section className="relative ">
@@ -275,7 +292,7 @@ const privacy = () => {
                                         </li>
                                     </ul>
                                     <span className="py-2">Link to the privacy policy of third-party service providers used by the app:</span>
-                                    <ul className="pl-8  pb-2" >
+                                    <ul className="pl-8  pb-2">
                                         <li className="list-disc">Google Play Services</li>
                                         <li className="list-disc"> Google AdMob</li>
                                         <li className="list-disc"> Google Analytics for Firebase</li>
@@ -306,7 +323,7 @@ const privacy = () => {
                                     </p>
                                     <div className={"pt-4"}>
                                         <span>Links to Other Sites</span>
-                                        <p >
+                                        <p>
                                             This service may contain links to other sites. If you click on a third-party
                                             link, you will be directed to that site. Note that these external sites are
                                             not operated by us. Therefore, we strongly advise you to review the
@@ -318,7 +335,9 @@ const privacy = () => {
                                     <div className={"pt-4"}>
                                         <span>Ads</span>
                                         <p>
-                                            We may display ads supplied by a third-party ad provider, such as Google AdMob, AdSense, Facebook Ads, etc. These providers may be using cookies, or other technologies to collect information as a result of ad serving.
+                                            We may display ads supplied by a third-party ad provider, such as Google
+                                            AdMob, AdSense, Facebook Ads, etc. These providers may be using cookies, or
+                                            other technologies to collect information as a result of ad serving.
                                             Important notes:
                                             This application is NOT affiliated with or endorsed by OpenAI.
                                         </p>
@@ -327,19 +346,32 @@ const privacy = () => {
 
                             </div>
                         </section>
-                        <section className={"flex items-center space-x-1 py-[27px]"}>
-                            <div className={"w-6 h-6 rounded-full  text-black text-center font-medium"}>
-                                <div className={"sr-only"}>copyright</div>
-                                <Image
-                                    src="/image/copyRight.png"
-                                    width={20}
-                                    height={20}
-                                    alt="Picture of the author"
-                                />
+                        <section className="py-[4.8rem] flex items-center space-x-4 ">
+                            <div>
+                                <a href="https://play.google.com/store/apps/details?id=com.mia.app">
+                                    <Image
+                                        src="/image/google.png"
+                                        width={200}
+                                        height={47}
+                                        alt="Picture of the author"
+                                    />
+                                </a>
+
                             </div>
-                            <h3 className="text-[10px] text-[#787878]">All right resaved for Mia-GPT 4 Community.
-                                Copyright 2023</h3>
+                            <div>
+                                <a href="https://apps.apple.com/us/app/id1668359797">
+                                    <Image
+                                        src="/image/appStore.png"
+                                        width={200}
+                                        height={47}
+                                        alt="Picture of the author"
+                                    />
+                                </a>
+
+                            </div>
                         </section>
+
+
                     </div>
                 </div>
             </div>

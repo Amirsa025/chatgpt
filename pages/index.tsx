@@ -2,9 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from "@/app/component/Navbar";
 
-
-
-
 export default function Home() {
 
   return (
@@ -36,7 +33,7 @@ export default function Home() {
                     </p>
                   </div>
                 </section>
-                <section className="pt-[3.1rem] flex items-center space-x-8 ">
+                <section className="pt-[3.188rem] flex items-center space-x-8 ">
                   <div>
                     <a href="https://play.google.com/store/apps/details?id=com.mia.app">
                       <Image
